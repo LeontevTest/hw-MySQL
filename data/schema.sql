@@ -35,3 +35,4 @@ CREATE TABLE card_transactions
     target            VARCHAR(19) NOT NULL,
     amount_in_kopecks INT         NOT NULL,
     created           TIMESTAMP   NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
